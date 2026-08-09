@@ -31,27 +31,6 @@ end-to-end acquisition, inspection, cleaning, business-question answers, and ind
 
 ---
 
-## Repository structure
-
-```
-.
-├── data/                            # Raw source extracts (read-only inputs)
-│   ├── TABLE_SALES_885.csv
-│   ├── TABLE_RETAILER_885.csv
-│   └── TABLE_PRODUCTS_885.csv
-├── notebooks/
-│   └── RUSH_sales_analysis.ipynb    # Main analysis notebook
-├── figures/                         # Charts exported by the notebook (.png)
-├── outputs/
-│   └── rush_clean_orders.csv        # Cleaned, merged order-level dataset
-├── presentation/
-│   ├── RUSH_2021_Sales_Review.pptx  # Slides for the 3-5 minute VP presentation
-│   └── presentation_script.md       # Timed speaking script
-├── requirements.txt
-├── .gitignore
-└── README.md
-```
-
 ## How to run
 
 ```bash
